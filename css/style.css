@@ -462,12 +462,14 @@ p {
   margin-top: var(--spacing-lg);
   padding-top: var(--spacing-md);
   border-top: 1px solid var(--color-gray-light);
+  text-align: center;
 }
 
 .contact-list {
   list-style: none;
   display: grid;
   gap: var(--spacing-sm);
+  justify-items: center;
 }
 
 .contact-item {
@@ -475,6 +477,7 @@ p {
   align-items: center;
   gap: var(--spacing-sm);
   font-size: 1rem;
+  justify-content: center;
 }
 
 .contact-icon {
